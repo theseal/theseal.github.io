@@ -234,3 +234,23 @@
         }
     }
 }
+
+
+/**
+ * Create opacity blocks.
+ */
+
+.foo-wrapper {
+    background-color:rgba(255, 255, 255, 0.9);
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin: 0 auto -246px;
+}
+.foo-footer, .foo-push {
+    height: 246px;
+}
+
+.foo-footer {
+    background-color:rgba(255, 255, 255, 0.4);
+}
