@@ -93,7 +93,7 @@
  */
 .site-footer {
     border-top: 1px solid $grey-color-light;
-    padding: $spacing-unit 0;
+    padding-top: 20px;
 }
 
 .footer-heading {
@@ -116,7 +116,6 @@
 
 .footer-col {
     float: left;
-    margin-bottom: $spacing-unit / 2;
     padding-left: $spacing-unit / 2;
 }
 
@@ -246,10 +245,10 @@
     min-height: 100%;
     height: auto !important;
     height: 100%;
-    margin: 0 auto -246px;
+    margin: 0 auto -158px;
 }
 .foo-footer, .foo-push {
-    height: 246px;
+    height: 158px;
 }
 
 .foo-footer {
