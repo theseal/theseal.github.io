@@ -93,7 +93,7 @@
  */
 .site-footer {
     border-top: 1px solid $grey-color-light;
-    padding-top: 20px;
+    padding: $spacing-unit 0;
 }
 
 .footer-heading {
@@ -116,6 +116,7 @@
 
 .footer-col {
     float: left;
+    margin-bottom: $spacing-unit / 2;
     padding-left: $spacing-unit / 2;
 }
 
@@ -130,7 +131,6 @@
 }
 
 .footer-col-3 {
-    margin-top: -55px;
     width: -webkit-calc(45% - (#{$spacing-unit} / 2));
     width:         calc(45% - (#{$spacing-unit} / 2));
 }
@@ -138,12 +138,13 @@
 @include media-query($on-laptop) {
     .footer-col-1,
     .footer-col-2 {
-        width: -webkit-calc(25% - (#{$spacing-unit} / 2));
-        width:         calc(25% - (#{$spacing-unit} / 2));
+        width: -webkit-calc(50% - (#{$spacing-unit} / 2));
+        width:         calc(50% - (#{$spacing-unit} / 2));
     }
 
     .footer-col-3 {
-        margin-top: -55px;
+        width: -webkit-calc(100% - (#{$spacing-unit} / 2));
+        width:         calc(100% - (#{$spacing-unit} / 2));
     }
 }
 
@@ -152,9 +153,6 @@
         float: none;
         width: -webkit-calc(100% - (#{$spacing-unit} / 2));
         width:         calc(100% - (#{$spacing-unit} / 2));
-    }
-    .footer-col-3 {
-            margin-top: 0;
     }
 }
 
@@ -247,21 +245,12 @@
     min-height: 100%;
     height: auto !important;
     height: 100%;
-    margin: 0 auto -158px;
+    margin: 0 auto -246px;
 }
 .foo-footer, .foo-push {
-    height: 158px;
+    height: 246px;
 }
 
 .foo-footer {
     background-color:rgba(255, 255, 255, 0.4);
-}
-
-@include media-query($on-palm) {
-    .foo-footer, .foo-push {
-        height: 333px;
-    }
-    .foo-wrapper {
-        margin: 0 auto -333px;
-    }
 }
