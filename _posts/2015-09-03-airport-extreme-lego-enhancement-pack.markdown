@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Airport Extreme Lego Enhancement Pack"
-date:   2015-09-03 23:00:00
+date:   2015-09-03 21:00:00
 ---
 Since I moved to my current apartment the WiFi has been a little bit shaky.
 Not much enough to bother, but still not perfect.
