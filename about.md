@@ -15,3 +15,4 @@ Two reasons:
 
 1. I need to practice my english more.
 2. I intend to write tech stuff here and from my experience that's harder in swedish(and I hate tech-"svengelska").
+<!--This is a comment. Comments are not displayed in the browser-->
