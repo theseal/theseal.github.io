@@ -1,0 +1,57 @@
+---
+layout: post
+title:  "Blank"
+date:   2017-08-06
+---
+I have been wanting to do this for a long time, since about the time I
+received and configured my new MacBook Esc at work. That's probably
+half a year ago.
+
+I have always used a blank screen saver on my Macs. But since some
+releases back of macOS (OS X really) Apple no longer ships the OS with
+an blank
+alternative.
+
+Why a screen saver you may ask, why not just turn off the display (lock
+the computer)? External monitors is my answer to that. External
+monitors take ages to start from wake and that is not an alternative
+when you SHOULD lock your computer each time you leave your desk.
+
+So there are alternatives for this. The probably most used one is a
+[black screen saver made by
+Dr. Lex](https://www.dr-lex.be/software/screensavers.html). This one
+works just great but is from my knowledge not open-source and is huge
+(7KiB compressed 😉)!
+
+Another way to come around this problem can be found on
+[superuser.com](https://superuser.com/a/328670).  That also works great
+and feels better than downloading a binary from Dr.  Lex. But the
+installation process is a little bit bulky so I wasn't 100% pleased.
+
+So this week I took the superuser.com alternative and made it ever
+smaller (1KiB!) and put it on
+[GitHub](https://github.com/theseal/macos-blank-screensaver). The file
+is still an binary ([a
+        plist](https://en.wikipedia.org/wiki/Property_list)) but can be
+opened with [Graphics Tools for
+Xcode](https://developer.apple.com/downloads/index.action?name=graphics%20tools%20for%20xcode).
+As close to open-source as I can get. To make the installation easier I
+made a [brew](https://brew.sh) [cask](https://caskroom.github.io)
+[tap](https://github.com/theseal/homebrew-blank-screensaver).
+
+The installation is almost too easy if you have `brew` installed
+already.
+
+* Run:
+
+```
+brew tap theseal/blank-screensaver
+brew cask install blank-screensaver
+```
+* Activate the screen saver in the `Desktop & Screen saver`
+prefPane.
+
+
+Enjoy!
+
+And as always, patches are welcome. 🙂
