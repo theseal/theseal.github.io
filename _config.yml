@@ -1,7 +1,7 @@
 # Site settings
 title: rymdvarel.se
 email: johan @ current site
-fullname: Johan Carlquist
+fullname: Johan Wassberg
 description: The cake is a lie!
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://www.rymdvarel.se" # the base hostname & protocol for your site
