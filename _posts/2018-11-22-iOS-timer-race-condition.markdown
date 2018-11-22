@@ -11,7 +11,7 @@ in iOS 12 makes the timer just end quietly when the time is up if both values
 are set to the same amount of time. I have confirmed the same issue on my phone
 but I can't find any other person reporting the same thing. Is it just us?
 
-{% youtube SInG77mbqCI %}
+<iframe width="560" height="315" src="https://www.youtube.com/embed/SInG77mbqCI" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 If my Apple Watch is connected to my phone the watch still makes a sound when the
 timer is completed so it feels like a classic race condition.
