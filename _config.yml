@@ -4,7 +4,7 @@ email: johan @
 fullname: Johan Wassberg
 description: The cake is a lie!
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "https://blog.rymdvarel.se" # the base hostname & protocol for your site
+url: "https://rymdvarel.se" # the base hostname & protocol for your site
 twitter_username: theseal
 github_username:  theseal
 
