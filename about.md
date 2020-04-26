@@ -6,7 +6,7 @@ permalink: /about/
 
 # This is my face on the Internet: #
 
-<img src="https://www.gravatar.com/avatar/ff965a9256c7a3eb685d0678eb790ffc?s=500" alt="TheSeal" border="2" width="45%" height="45%"> 
+<img src="https://www.gravatar.com/avatar/ff965a9256c7a3eb685d0678eb790ffc?s=500" alt="TheSeal" border="2" width="45%" height="45%">
 
 My name is Johan and I'm some kind of computer guy working as a system administrator mainly with Linux.
 
