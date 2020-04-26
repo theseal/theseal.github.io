@@ -12,5 +12,3 @@ github_username:  theseal
 markdown: kramdown
 
 timezone: Europe/Stockholm
-
-include: [".well-known"]
