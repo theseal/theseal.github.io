@@ -5,8 +5,14 @@ fullname: Johan Wassberg
 description: The cake is a lie!
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://rymdvarel.se" # the base hostname & protocol for your site
+
+# Social
 twitter_username: theseal
 github_username:  theseal
+mastodon:
+ - username: theseal
+   instance: mastodon.social
+
 theme: minima
 
 # Build settings
