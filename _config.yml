@@ -1,7 +1,7 @@
 # Site settings
 baseurl: "" # the subpath of your site, e.g. /blog/
 description: The cake is a lie!
-email: johan @ rymdvarel.se
+email: johan@rymdvarel.se
 author: Johan Wassberg
 title: rymdvarel.se
 url: "https://rymdvarel.se" # the base hostname & protocol for your site
