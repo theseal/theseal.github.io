@@ -9,7 +9,7 @@ friend. This made my Home Assistant instance very jealous and requested to be
 upgraded/migrated to the new Pi (from an older Pi 3).
 
 Internet made me clear that I could not just move the SD card between the
-devices since diffrent images between diffrent hardware.
+devices since it is diffrent images between diffrent hardware.
 
 I didn't find any good migration guide that I thought was easy enough so I
 decided to write my own guide from this experience.
