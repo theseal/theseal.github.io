@@ -1,10 +1,10 @@
 # Site settings
-baseurl: "" # the subpath of your site, e.g. /blog/
+baseurl: ""
 description: The universe is a pretty big place. If it's just us, seems like an awful waste of space.
 email: johan@rymdvarel.se
 author: Johan Wassberg
 title: rymdvarel.se
-url: "https://rymdvarel.se" # the base hostname & protocol for your site
+url: "https://rymdvarel.se"
 
 # Social
 github_username:  theseal
