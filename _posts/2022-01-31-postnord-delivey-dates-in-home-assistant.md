@@ -5,6 +5,7 @@ date:   2022-01-31
 ---
 
 **Updated 2022-02-07:** The template sensor now zeropads the day for the first 9 days in a month.
+**Updated 2022-02-08:** Forgot to add the updated template 🤦‍♂️
 
 Since Maud Olofsson bought the danish postal service with swedish tax money and merged it with the swedish equivalent the service has ever declined. The "new" company PostNord recently started to deliver mail on an every other day basis which makes it almost impossible to predict when to find bills and other fun important shipments in the letter-box.
 
