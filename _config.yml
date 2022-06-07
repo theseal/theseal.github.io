@@ -17,6 +17,7 @@ twitter_username: theseal
 markdown: kramdown
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
 timezone: Europe/Stockholm
 theme: minima
 
