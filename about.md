@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-My name is Johan but I'm often called Sälen, Säl or TheSeal.
+My name is Johan but I'm more often called Sälen, Säl or TheSeal (or in profession, jocar).
 
 I'm some kind of computer guy working as a system administrator mainly with Linux.
 
