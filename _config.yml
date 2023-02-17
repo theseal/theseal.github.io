@@ -36,4 +36,4 @@ defaults:
     values:
       image: /assets/images/apple-icon-76x76.png
 
-paginate: 7
+paginate: 6
