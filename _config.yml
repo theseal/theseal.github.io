@@ -1,8 +1,9 @@
 # Site settings
 baseurl: ""
 description: The universe is a pretty big place. If it's just us, seems like an awful waste of space.
-email: johan@rymdvarel.se
-author: Johan Wassberg
+author:
+  email: johan@rymdvarel.se
+  name: Johan Wassberg
 title: rymdvarel.se
 url: "https://rymdvarel.se"
 
@@ -13,13 +14,20 @@ mastodon:
    instance: mastodon.social
 twitter_username: theseal
 
+minima:
+  social_links:
+    - { platform: github,  user_url: "https://github.com/theseal" }
+    - { platform: mastodon,  user_url: "https://mastodon.social/@theseal" }
+
 # Build settings
 markdown: kramdown
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-remote-theme
+
 timezone: Europe/Stockholm
-theme: minima
+remote_theme: jekyll/minima@32468f51758b0b37c2b1f423265d4f29db461b27
 
 defaults:
   - scope:
