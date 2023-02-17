@@ -25,6 +25,7 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-remote-theme
+  - jekyll-paginate
 
 timezone: Europe/Stockholm
 remote_theme: jekyll/minima@32468f51758b0b37c2b1f423265d4f29db461b27
@@ -34,3 +35,5 @@ defaults:
       path: ""
     values:
       image: /assets/images/apple-icon-76x76.png
+
+paginate: 7
