@@ -4,7 +4,8 @@ title:  "Build/run Docker for amd64 on Apple silicon"
 date:   2022-10-16
 ---
 
-…without Rosetta!
+~~…without Rosetta!~~
+Update 2023-08-07: Recently found out that since version 0.5.0 of Colima support for Rosetta is added and improves performance! 🎉
 
 ## Prerequisite
 * Make sure that [Docker Desktop](https://www.docker.com/products/docker-desktop/) is stop (or uninstalled)
