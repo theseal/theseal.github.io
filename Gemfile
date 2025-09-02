@@ -32,3 +32,5 @@ gem 'kramdown-parser-gfm'
 gem 'jekyll-remote-theme'
 
 gem 'jekyll-paginate'
+
+gem "webrick", "~> 1.9"
